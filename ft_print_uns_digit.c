@@ -6,7 +6,7 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 16:47:27 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/10 18:19:28 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/11 11:38:50 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_print_uns_digit(unsigned int nb)
 {
-	int	count;
-	int	div;
+	int				count;
+	unsigned int	div;
 
 	count = 0;
 	div = 1;
