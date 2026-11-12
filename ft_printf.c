@@ -6,7 +6,7 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 18:12:32 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/12 14:49:53 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 15:33:12 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,8 @@ int	ft_printf(const char *format, ...)
 	int		count;
 	int		rst;
 
+	if(!format)
+		return(-1);
 	va_start(args, format);
 	count = 0;
 	i = 0;
