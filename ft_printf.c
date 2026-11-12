@@ -6,11 +6,11 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 18:12:32 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/11 11:38:46 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 09:59:49 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lib.h"
+#include "ft_printf.h"
 
 static int	type_check(va_list *args, char c)
 {

@@ -6,11 +6,11 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 18:10:32 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/10 18:20:08 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 10:00:47 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lib.h"
+#include "ft_printf.h"
 
 int	ft_print_char(char c)
 {

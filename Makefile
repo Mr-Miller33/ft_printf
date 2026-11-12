@@ -9,11 +9,11 @@ OBJS = $(SRC:.c=.o)
 
 all : $(NAME)
 
-%.o: %.c lib.h
-	$(CC) $(CFLAGS) -c $< -o $@
-
 $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
+
+%.o: %.c ft_printf.h
+	$(CC) -c $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(OBJS)

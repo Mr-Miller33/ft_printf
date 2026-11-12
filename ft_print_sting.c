@@ -6,11 +6,11 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 16:56:08 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/11 11:38:52 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 10:00:03 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lib.h"
+#include "ft_printf.h"
 
 static size_t	ft_strlen(char *str)
 {

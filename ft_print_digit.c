@@ -6,11 +6,11 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 18:13:42 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/10 20:01:50 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 10:00:42 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lib.h"
+#include "ft_printf.h"
 
 int	ft_print_digit(int nb)
 {
