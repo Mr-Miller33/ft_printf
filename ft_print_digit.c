@@ -6,7 +6,7 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 18:13:42 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/12 14:47:09 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 19:51:52 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ static int	print_num(long n)
 
 	count = 0;
 	div = 1;
-	while (div >= 10)
+	while (n / div >= 10)
 		div *= 10;
 	while (div > 0)
 	{
