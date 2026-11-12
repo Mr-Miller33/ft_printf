@@ -1,9 +1,9 @@
 NAME = libftprintf.a
-CC = cc 
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 SRC = ft_print_char.c ft_print_digit.c ft_print_hexa.c ft_print_point.c \
-	ft_print_sign.c ft_print_uns_digit.c ft_printf.c ft_print_sting.c
+	ft_print_sign.c ft_print_uns_digit.c ft_printf.c ft_print_string.c
 
 OBJS = $(SRC:.c=.o)
 

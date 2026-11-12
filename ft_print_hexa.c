@@ -6,7 +6,7 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 17:20:32 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/12 10:00:35 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 14:29:52 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,8 @@ int	ft_print_hexa(unsigned long hex, char conversion)
 		div *= 16;
 	while (div > 0)
 	{
-		write(1, &base[hex / div], 1);
+		if (write(1, &base[hex / div], 1) == -1)
+			return (-1);
 		hex = hex % div;
 		div /= 16;
 		count += 1;

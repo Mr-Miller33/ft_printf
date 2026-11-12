@@ -6,7 +6,7 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 16:47:27 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/12 09:59:57 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 14:26:01 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,8 @@ int	ft_print_uns_digit(unsigned int nb)
 		div *= 10;
 	while (div > 0)
 	{
-		ft_print_char((nb / div) % 10 + '0');
+		if (ft_print_char((nb / div) % 10 + '0') == -1)
+			return (-1);
 		div /= 10;
 		count += 1;
 	}

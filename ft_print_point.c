@@ -6,13 +6,13 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 18:17:34 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/12 10:00:28 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 14:49:28 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_print_point(void *p, char conversion)
+int	ft_print_point(void *p)
 {
 	unsigned long	hex;
 	int				rst;
@@ -20,13 +20,13 @@ int	ft_print_point(void *p, char conversion)
 
 	hex = (unsigned long)p;
 	if (!hex)
-		return (ft_print_sting("(nil)"));
+		return (ft_print_string("(nil)"));
 	count = 0;
-	count = ft_print_sting("0x");
+	count = ft_print_string("0x");
 	if (count == -1)
 		return (-1);
 	rst = count;
-	count = ft_print_hexa(hex, conversion);
+	count = ft_print_hexa(hex, 'x');
 	if (count == -1)
 		return (-1);
 	rst += count;

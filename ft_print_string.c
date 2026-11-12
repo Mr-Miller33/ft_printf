@@ -6,7 +6,7 @@
 /*   By: moslaoui <moslaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 16:56:08 by moslaoui          #+#    #+#             */
-/*   Updated: 2026/11/12 10:00:03 by moslaoui         ###   ########.fr       */
+/*   Updated: 2026/11/12 14:42:50 by moslaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static size_t	ft_strlen(char *str)
 	return (i);
 }
 
-int	ft_print_sting(char *str)
+int	ft_print_string(char *str)
 {
 	int	len;
 
